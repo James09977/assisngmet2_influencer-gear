@@ -227,7 +227,88 @@ hr {
 /*--------------- 
 featered products 
 -----------------*/
+.featured-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .featured-products img {
     width: 404px;
     height: 270px;
+    margin-right: 96px;
+}
+
+.feture-product-title h2 {
+    font-size: 38px;
+    color: #0A0826;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.feture-product-title p {
+    font-size: 16px;
+    width: 501px;
+    color: #6C6C6C;
+}
+
+.join-button {
+    width: 155px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white
+}
+
+.join-button span {
+    margin-right: 8px
+}
+
+/*----------- 
+footer 
+------------*/
+footer {
+    height: 239px;
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+}
+
+
+
+footer h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-top: 50px;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.icon {
+    background-color: #fafafa14;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    margin-right: 16px;
 }
