@@ -43,8 +43,8 @@ body {
     border-radius: 41px;
 }
 
-.fa-solid .arr {
-    color: #ffffff;
+.fa-solid.fa-arrow-right {
+    color: rgb(255, 255, 255);
 }
 
 .prebook:hover {
@@ -55,8 +55,14 @@ body {
     transition: 1s;
 }
 
+.prebook:hover .fa-solid.fa-arrow-right {
+    color: #E02C6D;
+    transition: 1s;
+}
+
+
 .button_name {
-    padding-right: 5px;
+    padding-right: 15px;
 }
 
 
@@ -200,4 +206,28 @@ hr {
     color: #787885;
     margin-top: 0px;
     margin-left: 14px;
+}
+
+.see-more-button {
+    margin-top: 30px;
+}
+
+.see-more {
+
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.fa-solid.bottom {
+    color: #E02C6D;
+}
+
+/*--------------- 
+featered products 
+-----------------*/
+.featured-products img {
+    width: 404px;
+    height: 270px;
 }
